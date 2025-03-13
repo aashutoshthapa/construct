@@ -1,0 +1,21 @@
+.construction-bg {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.glow-effect {
+    text-shadow: 0 0 10px rgba(66, 153, 225, 0.5);
+}
+
+.form-container {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.submit-button {
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+}
